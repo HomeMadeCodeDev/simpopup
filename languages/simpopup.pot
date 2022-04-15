@@ -1,0 +1,64 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Simpopup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-14 12:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3\n"
+"X-Domain: simpopup"
+
+#. Name of the plugin
+msgid "Simpopup"
+msgstr ""
+
+msgid "Simpopup Settings"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Admin only"
+msgstr ""
+
+msgid "HTML code"
+msgstr ""
+
+msgid "CSS code"
+msgstr ""
+
+msgid "JS code"
+msgstr ""
+
+msgid "Settings saved"
+msgstr ""
+
+msgid "Save settings"
+msgstr ""
+
+msgid ""
+"Simpopup is a very simple plugin that only uses a cookie to avoid showing a "
+"popup to a user each time he/she comes on the website"
+msgstr ""
+
+# The description text displayed above the settings
+# 
+# This sentence ends abruptly because there's a <a> tag for a link after it. The following text will be "this link", which is a separated translation, make sure to make your version consistent
+msgid ""
+"Quickly edit the settings of Simpopup here. Simpopup is a plugin meant to "
+"display a popup when a user visits your website, on whatever public page, "
+"but only if the popup was not shown to this particular user just before. If "
+"you want more information, please check"
+msgstr ""
+
+# Part of the settings description
+msgid "this link"
+msgstr ""
