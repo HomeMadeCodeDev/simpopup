@@ -17,12 +17,12 @@ class Simpopup_Admin {
      */
     public function register_page() {
         add_menu_page(
-            __( 'Simpopup', 'simpopup' ),                                       // Title of the page
-            __( 'Simpopup', 'simpopup' ),                                       // Title of the menu
-            SIMPOPUP_REQUIRED_PERM,                                             // Required permission
-            'simpopup',                                                         // Menu slug
-            array($this, 'display_menu_page_main'),                             // Display callback
-                                                                                // Url of the icon of the menu item, or svg URI here
+            __( 'Simpopup', 'simpopup' ),           // Title of the page
+            __( 'Simpopup', 'simpopup' ),           // Title of the menu
+            SIMPOPUP_REQUIRED_PERM,                 // Required permission
+            'simpopup',                             // Menu slug
+            array($this, 'display_menu_page_main'), // Display callback
+                                                    // Url of the icon of the menu item, or svg URI here
             'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwgMCwgMCwgMSk7dHJhbnNmb3JtOiA7bXNGaWx0ZXI6OyI+PHBhdGggZD0iTTQgMjFoMTZjMS4xMDMgMCAyLS44OTcgMi0yVjVjMC0xLjEwMy0uODk3LTItMi0ySDRjLTEuMTAzIDAtMiAuODk3LTIgMnYxNGMwIDEuMTAzLjg5NyAyIDIgMnptMC0yVjdoMTZsLjAwMSAxMkg0eiI+PC9wYXRoPjwvc3ZnPg=='
         );
     }
